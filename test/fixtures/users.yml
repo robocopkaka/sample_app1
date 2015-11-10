@@ -1,4 +1,4 @@
 donatello:
-	name: donatello
-	email: kaka1660@yahoo.com
-	password_digest: <%= User.digest('password') %>
+	name:donatello
+	email:kaka1660@yahoo.com
+	password_digest:<%= User.digest('password') %>

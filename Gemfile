@@ -16,6 +16,20 @@ gem 'coffee-rails', '~> 4.1.0'
 # Use bcrypt gem
 gem 'bcrypt', '~>3.1.9'
 
+#gem to reproduce sample users
+gem 'faker', '1.5.0'
+
+#gems to paginate
+gem 'will_paginate', '3.0.7'
+gem 'bootstrap-will_paginate', '0.0.10'
+
+#gems for uploading and resizing images, and for also uploading images in production
+gem 'carrierwave', '0.10.0'
+gem 'mini_magick', '3.8.0'
+gem 'fog', '1.23.0'
+
+
+
 #use the unicorn gem
 #gem 'unicorn', '4.8.3'
 # See https://github.com/rails/execjs#readme for more supported runtimes
